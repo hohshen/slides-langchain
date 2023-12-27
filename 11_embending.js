@@ -1,4 +1,6 @@
-//Vector stores https://js.langchain.com/docs/modules/data_connection/vectorstores/#usage
+//Vector stores 
+// https://js.langchain.com/docs/modules/data_connection/vectorstores/#usage
+// https://js.langchain.com/docs/modules/data_connection/retrievers/how_to/self_query/chroma-self-query
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import * as  dotenv from 'dotenv'

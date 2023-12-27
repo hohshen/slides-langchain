@@ -8,13 +8,15 @@ import {
     RunnablePassthrough,
 } from "langchain/runnables";
 import { StringOutputParser } from "langchain/schema/output_parser";
-import { HNSWLib } from "langchain/vectorstores/hnswlib";//vector db
+// import { HNSWLib } from "langchain/vectorstores/hnswlib";//vector db
+import { MemoryVectorStore } from "langchain/vectorstores/memory";
+
 import * as  dotenv from 'dotenv'
 dotenv.config()
 
 async function main() {
 
-    const vectorStore = await HNSWLib.fromDocuments(
+    const vectorStore = await MemoryVectorStore.fromDocuments(
         [
             new Document({ pageContent: "第1條,本細則依檔案法（以下簡稱本法）第二十九條規定訂定之。" }),
             new Document({ pageContent: "第2條第1項,本法第二條第二款所稱管理程序，指依文書處理或機關業務相關法令規定，完成核定、發文或辦結之程序。" }),

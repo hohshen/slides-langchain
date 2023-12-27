@@ -24,3 +24,7 @@ const input = await prompt.format({ question: "台灣的首都叫什麼?" })
 const response = await model.call(input)
 // console.log(response)
 console.log(await parser.parse(response))
+// {
+//     answer: '台北',
+//     source: 'https://zh.wikipedia.org/wiki/%E5%8F%B0%E5%8C%97'
+// }
