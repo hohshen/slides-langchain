@@ -1,13 +1,15 @@
 {
   "dependencies": {
     "dotenv": "^16.3.1",
-    "langchain": "^0.0.212"
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.212",
+    "peggy": "^3.0.2"
   },
   "name": "tutor-langchain",
   "description": "https://www.youtube.com/watch?v=mAYS4d0hrek 01  02 03 04 05 https://www.youtube.com/watch?v=W3AoeMrg27o&list=PLw5h0DiJ-9PClTnz4fu-0SNeQibhLPf4H 17:00 06 https://github.com/hohshen/tutor_langchain/blob/main/src/007.ts 07 https://www.youtube.com/watch?v=zAnf6PPnvLg&list=PLw5h0DiJ-9PClTnz4fu-0SNeQibhLPf4H&index=5 11:00 + https://github.com/hohshen/tutor_langchain/blob/main/src/009.ts 08  09 diy 10",
   "version": "1.0.0",
   "main": "01_hello.js",
-  "type": "module" ,
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
