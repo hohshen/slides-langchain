@@ -5,5 +5,5 @@ dotenv.config()
 const model = new OpenAI({
     temperature: 0.9
 })
-const res = await model.call("股利超過多少要扣稅")
+const res = await model.call("請問只要不違法就符合社會倫理嗎?")
 console.log(res)

@@ -5,13 +5,13 @@ import * as  dotenv from 'dotenv'
 dotenv.config()
 
 const parser = StructuredOutputParser.fromNamesAndDescriptions({
-    answer: "answer to the user's question",
-    source: "source used to answer the user's question, should be a website.",
+    answer: "回答使用者的問題",
+    source: "用來回答使用者問題的來源，應該是一個網站網址。",
 });
 const formatInstructions = parser.getFormatInstructions()
 const prompt = new PromptTemplate(
     {   //在template中告知要parser成什麼樣子
-        template: "Answer the users question as best as possible.\n{format_instructions}\n{question}",
+        template: "盡可能最好地回答用戶的問題。\n{format_instructions}\n{question}",
         inputVariables: ["question"],
         partialVariables: { format_instructions: formatInstructions }
     }
