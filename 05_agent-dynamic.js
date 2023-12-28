@@ -9,12 +9,11 @@ const model = new OpenAI({
     temperature: 0.9
 })
 
-const tools = [ 
+const tools = [
     new DynamicTool({
-        name: "Date",
-        description:
-        "get today date",
-        func: async () =>new Date().toISOString(),
+        name: "Toolsの誘惑",
+        description: "取得今天的日期與時間",
+        func: async () => new Date().toISOString(),
     }),
 ]
 
