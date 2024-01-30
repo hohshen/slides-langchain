@@ -4,22 +4,18 @@
     "dotenv": "^16.3.1",
     "langchain": "^0.0.212"
   },
-  "name": "tutor-langchain",
-  "description": "https://www.youtube.com/watch?v=mAYS4d0hrek",
+  "name": "slides-langchain",
+  "description": "",
   "version": "1.0.0",
-  "main": "01_hello.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hohshen/tutor-langchain.git"
+    "url": "git+https://github.com/hohshen/slides-langchain.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hohshen/tutor-langchain/issues"
+    "url": "https://github.com/hohshen/slides-langchain/issues"
   },
-  "homepage": "https://github.com/hohshen/tutor-langchain#readme"
+  "homepage": "https://github.com/hohshen/slides-langchain#readme"
 }

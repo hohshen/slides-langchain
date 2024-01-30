@@ -25,7 +25,7 @@ const msg = await chain.invoke([
                 {
                     type: "image_url",
                     image_url: {
-                        url: `data:image/png;base64,${toBase64('./image.png')}`
+                        url: `data:image/png;base64,${toBase64('../public/food.png')}`
                     },
                 }
 

@@ -24,5 +24,4 @@ const res = await executor.call({
 })
 console.log(res)
 // const res = await model.call("今天台積電收盤股價多少?")
-// // 回 514.00, 正確是592 
-// console.log(res)
+// console.log(res) 回 514.00, 但正確為592

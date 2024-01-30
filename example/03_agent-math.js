@@ -21,5 +21,4 @@ const res = await executor.call({
 console.log(res)
 
 // const res = await model.call("請問52.78^2為多少?")
-// 回 2781.8084, 正確是2785.7284
-// console.log(res)
+// console.log(res) 回 2781.8084, 但正確是2785.7284
